@@ -1,1 +1,1 @@
-export const API_URL = process.env.NODE_ENV === "production" ? "https://port-0-server-m5ubzdu4d92acbdf.sel4.cloudtype.app" : "http://localhost:8080"
+export const API_URL = process.env.NODE_ENV === "production" ? "https://port-0-secondeserver-m2ygh0fn97061ee8.sel4.cloudtype.app" : "http://localhost:8080"
