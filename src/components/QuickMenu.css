@@ -1,0 +1,71 @@
+.quickmenu {
+  position: fixed;
+  top: 50%;
+  right: 8%;
+}
+
+.quickmenuUl .quickmenuLogo {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background-color: #f62f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.quickmenuUl .quickmenuLogo button {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  font-size: 24px;
+  color: #fafaf5;
+  cursor: pointer;
+}
+
+.quickmenuUl .quickmenuSub ul {
+  text-align: center;
+  width:130px;
+  margin-top: 10px;
+  list-style-type: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  background-color: #fafaf5;
+  border-radius: 5px;
+}
+
+.quickmenuUl .quickmenuSub ul li {
+  width:100%;
+  border-bottom: 1px solid #eeeeee;
+  height:30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.quickmenuUl .quickmenuSub ul li:last-child{
+  border:0;
+}
+
+.quickmenuUl .quickmenuSub ul li a {
+  display: block;
+  width:100%;
+}
+
+
+.quickmenuUl .quickmenuSub.slideIn {
+  max-height: 200px; /* 변경될 컨텐츠의 높이 */
+}
+
+.quickmenuUl .quickmenuSub.slideOut {
+  max-height: 0;
+}
+
+.quickmenuUl .quickmenuLogo button.active + .quickmenuSub ul {
+  display: block;
+}

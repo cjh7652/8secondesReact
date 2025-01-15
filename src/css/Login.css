@@ -1,0 +1,118 @@
+.login{
+  width:1280px;
+  margin: 0 auto;
+}
+
+.loginContainer{
+  width:1000px;
+  height:500px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 60px auto;
+  display: flex;
+}
+
+.loginContainer .loginInputBox{
+  width:70%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.loginContainer .loginInputBox input:not(:last-child){
+  width:400px;
+  height:40px;
+  padding-left: 10px;
+  font-size: 15px;
+  border: 1px solid #d2d2d2;
+  transition: all .5s;
+  box-sizing: border-box;
+}
+
+.loginContainer .loginInputBox input:not(:last-child):focus{
+  transition: all .5s;
+  outline: 0;
+  padding-left: 20px;
+}
+
+.loginContainer .loginInputBox > button {
+  width:400px;
+  height:40px;
+  border: 0;
+  color:#fff;
+  background-color: #2b2b2b;
+  cursor: pointer;
+}
+
+.loginContainer .loginInputBox  .loginCheckBox{
+  display: flex;
+  align-items: center;
+  width: 402px;
+}
+
+.loginContainer .loginInputBox  .loginCheckBox input{
+  width:15px;
+  height:15px;
+  margin-right: 10px;
+}
+
+.loginSignUpBtn{
+  width:30%;
+  height:100%;
+  background-color: #2b2b2b;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginSignUpTxtBox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.loginSignUpTxtBox span{
+  color:#fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.loginSignUpBtn a{
+  color: #fff;
+}
+
+.IntegratedLoginBox{
+  display: flex;
+  width:400px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.IntegratedLoginBox>.kakao{
+  width:195px;
+  height:40px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FEE500;
+  cursor: pointer;
+}
+
+
+.IntegratedLoginBox>.naver{
+  width:195px;
+  height:40px;
+  border: 0;
+  background-color:#00c73c ;
+  color: #fff;
+  cursor: pointer
+}

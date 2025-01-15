@@ -1,0 +1,166 @@
+.signup{
+  width:1280px;
+  margin: 60px auto;
+}
+
+.signup h2{
+  font-size: 40px;
+  margin-bottom: 38px;
+}
+
+.signup form {
+  width:100%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.signup form::after{
+  content: "";
+  display: block;
+  width:5px;
+  height:5px;
+  background-color: #F62F2F;
+  border-radius: 50%;
+  position: absolute;
+  right: 220px;
+  top:3px;
+}
+.signup form::before{
+  content: "필수입력사항";
+  position: absolute;
+  font-weight: normal;
+  font-size: 14px;
+  color: #535353;
+  right: 140px;
+  top:-5px;
+}
+
+.idBox, .pwBox, .pw2Box ,.nameBox, .email, .phone  {
+  width:1000px;
+  height:100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup form span{
+  position: relative;
+}
+
+.signup form span::after{
+  content: "";
+  display: block;
+  width:5px;
+  height:5px;
+  background-color: #F62F2F;
+  border-radius: 50%;
+  position: absolute;
+  right: -13px;
+  top:0px;
+}
+
+.signup form input{
+  border: 0;
+  width:800px;
+  height:50px;
+  padding-left: 10px;
+  transition: all .5s;
+  box-sizing: border-box;
+  border: 1px solid #d2d2d2;
+}
+
+.signup form input:focus{
+  outline: 0;
+  padding-left: 20px;
+}
+
+.msgBox{
+  width:46.5%;
+}
+
+.success-color{color:green; font-size: 14px; letter-spacing: 0.5px;}
+.error-color{color: red; font-size: 14px;letter-spacing: 0.5px;}
+.help-style{
+  font-size: 12px;
+  color: rgb(105,105,105)
+}
+
+.termsOfUse{
+  width:100%;
+  margin-top: 100px;
+}
+
+.termsDesc{
+  width:100%;
+  background-color: #f1f1f1;
+  overflow-Y: scroll;
+  box-sizing: border-box;
+  padding: 10px;  
+  height:200px;
+  white-space: pre-line;
+  color:#535353;
+  letter-spacing:0.4px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.terms{
+  margin-bottom: 50px;
+}
+
+.termsDesc::-webkit-scrollbar {
+  width:3px;
+}
+.termsDesc::-webkit-scrollbar-thumb {
+  background-color:#2b2b2b;
+  border-radius: 10px;
+}
+.termsDesc::-webkit-scrollbar-track {
+  background-color:#d2d2d2;
+  border-radius: 10px;
+}
+
+.termsCheck {
+  display: flex;
+  justify-content: space-between; 
+  margin-bottom: 20px;
+}
+
+.termsCheck .checkInputBox {
+  display: flex;
+  align-items: center;
+}
+
+.termsCheck .checkInputBox input{
+  width:15px;
+  height:15px;
+  margin-right: 10px;
+}
+
+.termsCheck > p {
+  font-size: 20px;
+}
+
+.SignupSubmitBtnBox button {
+  width:200px;
+  height:40px;
+  margin: 0 10px;
+  border: 1px solid #d2d2d2;
+  cursor: pointer;
+}
+
+.SignupSubmitBtnBox button:first-child{
+  background-color:#fff ;
+}
+
+.SignupSubmitBtnBox button:last-child{
+  background-color: #2b2b2b;
+}
+
+.SignupSubmitBtnBox button:last-child {
+  color:#fff;
+}

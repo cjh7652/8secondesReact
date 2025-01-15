@@ -1,0 +1,22 @@
+.productText{
+    width:787px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.productText h3{
+    font-size: 30px;
+    margin-right: 30px;
+    color:#2b2b2b;
+}
+
+.productText p {
+    font-size: 17px;
+    color: #b3b3b3;
+    margin-right: 267px;
+}
+
+.icon{
+    font-size: 30px;
+}

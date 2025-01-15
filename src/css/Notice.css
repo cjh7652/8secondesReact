@@ -1,0 +1,822 @@
+.notice{
+ width:100%; 
+}
+
+.notice .noticeWrap {
+  width:1280px;
+  margin: 64px auto;
+}
+
+.notice .noticeWrap .noticeTop{
+  width:100%;
+}
+
+.notice .noticeWrap .noticeTop h2{
+  font-size: 40px;
+  margin-bottom: 38px;
+}
+
+.notice .noticeWrap .noticeTop .noticeTap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notice .noticeWrap .noticeTop .noticeTap .noticeList{
+  display: flex;
+  align-items: center;
+}
+
+.notice .noticeWrap .noticeTop .noticeTap .noticeList li:not(:last-child){
+  margin-right: 37px;
+}
+
+.notice .noticeWrap .noticeTop .noticeTap .noticeList button{
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #535353;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.notice .noticeWrap .noticeTop .noticeTap .noticeList button.active{
+  color:#2b2b2b;
+  font-weight: bold;
+}
+
+.notice .noticeWrap .noticeTop .noticeTap .noticeSearch{
+  display: flex;
+}
+
+.notice .noticeWrap .noticeTop .noticeTap .noticeSearch #noticeSelect,
+.notice .noticeWrap .noticeTop .noticeTap .noticeSearch button
+{
+  width:70px;
+  height:38px;
+  background-color: transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #E6E6E6;
+  outline: 0;
+  color:#535353;
+  cursor: pointer;
+}
+
+.notice .noticeWrap .noticeTop .noticeTap .noticeSearch input{
+  width:301px;
+  height:38px;
+  background-color: transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #E6E6E6;
+  outline: 0;
+  color:#535353;
+  padding-left: 10px;
+  transition: all .6s;
+}
+.notice .noticeWrap .noticeTop .noticeTap .noticeSearch input:hover{
+  padding-left: 20px;
+}
+.notice .noticeWrap .noticeTop .noticeTap .noticeSearch input:active{
+  border: 1px solid #F62F2F;
+  box-shadow: 0px 0px 10px rgb(246, 47, 47, 0.3);
+}
+
+.notice .noticeWrap .noticeTop .noticeTap .noticeSearch input, .notice .noticeWrap .noticeTop .noticeTap .noticeSearch button{
+  margin-left: 13px;
+} 
+
+.faq{
+  margin-top: 30px;
+  width:70%;
+  border-bottom: 1px solid #d2d2d2;
+}
+.faqQ {
+  display: flex;
+  flex-direction: row;
+  height:50px;
+  border-top: 1px solid #d2d2d2;
+  align-items: center;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.faqQ span{
+  margin-right: 20px;
+}
+
+.faq .nodataTxt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq .nodataIcon{
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+
+.faqA span{
+  margin-right: 20px;
+}
+
+.faqA p{
+  color:#535353;
+  letter-spacing:0.4px;
+  line-height: 22px;
+  margin-top: 5px;
+}
+
+
+.faqA{
+  display: flex;
+  padding-left:5px ;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.faqA.active{
+  display: block;
+}
+
+.faqContainer{
+  display: flex;
+  align-items: center;
+}
+.faqContainer .noticeTxt{
+  margin-top: 50px;
+  width:30%;
+  box-sizing: border-box;
+  padding-left: 129px;
+}
+
+.faqContainer .noticeTxt img{
+  width:155px;
+}
+
+.guestOrder{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guestOrder h2{
+  font-size: 24px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.guestOrder .guestFiled{
+  display: flex;
+  width:500px;
+  margin: 0 auto;
+}
+
+.guestOrder .guestOrderInput{
+  display: flex;
+  flex-direction: column;
+}
+
+.guestOrder .guestOrderInput input{
+  width:350px;
+  height:40px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #d2d2d2;
+  margin-bottom:5px;
+  transition: all .5s;
+}
+
+.guestOrder .guestOrderInput input:focus{
+  outline: 0;
+  padding-left: 20px;
+  transition: all .5s;
+}
+
+
+
+.guestOrder .guestOrderInput p {
+  margin-bottom: 5px;
+}
+
+.guestOrder .guestOrderInput input:hover{
+  padding-left: 20px;
+}
+
+.guestOrder .guestOrderInput input:last-child{
+  margin: 0;
+}
+
+.guestOrder .guestFiled .guestOrderBtn{
+  width:240px;
+  margin-left: 10px;
+}
+
+.guestOrder .guestOrderInput input[type="number"]::-webkit-inner-spin-button,
+.guestOrder .guestOrderInput input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.guestOrder .guestFiled .guestOrderBtn button{
+  width:100%;
+  height:140px;
+  border: 0;
+  background-color: #2b2b2b;
+  color: #fdfdfa;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.guestOrder .guestOrderInfo{
+  margin-top: 30px;
+  width: 500px;
+  height:50px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #d2d2d2;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.error-color{color: red}
+
+.announcementDesc{
+  display: none;
+  border-top: 1px solid #d2d2d2;
+  margin-bottom: 30px;
+}
+
+.announcementDesc span {
+  color:#535353;
+  letter-spacing:0.4px;
+  line-height: 22px;
+  white-space: pre-line;
+}
+
+.announcementDesc.active{
+  display: block;
+}
+
+.announcement .announcementWrap{
+  width:100%;
+  margin-top: 40px;
+}
+
+.announcementTitle {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  height:50px;
+  border-top: 1px solid #d2d2d2;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.announcementBox:last-child{
+  width:1280px;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.announcementTitle span{
+  display: block;
+  margin-right: 20px;
+}
+
+.announcementTitle .date{
+  margin-left: auto; 
+  margin-right: 0;
+}
+
+.grouporder, .partnership{
+  width:1280px;
+}
+
+.grouporder h2, .partnership h2{
+  margin-bottom: 30px;
+  margin-top: 60px;
+  position: relative;
+}
+
+.grouporder h2::after, .partnership h2::after{
+  content: "필수입력사항";
+  position: absolute;
+  font-weight: normal;
+  font-size: 14px;
+  color: #535353;
+  top:50%;
+  transform:translateY(-50%) ;
+  left: 60%;
+}
+
+.grouporder h2::before, .partnership h2::before{
+  content: "";
+  display: block;
+  width:5px;
+  height:5px;
+  background-color: #F62F2F;
+  border-radius: 50%;
+  position: absolute;
+  left:59%;
+  top: 50%;
+}
+
+.grouporder .groupFiled, .partnerFiled{
+  width:100%;
+  margin-left: auto;
+}
+
+.grouporderContainer, .partnerContainer{
+  display: flex;
+  position: relative;
+}
+
+.partnerContainer{
+  margin-bottom: 150px;
+}
+
+.grouporderContainer .groupOrderImg {
+  width:35%;
+  margin-top: 50px;
+  width:30%;
+  box-sizing: border-box;
+  padding-left: 129px;
+}
+
+.partnerImg {
+  width:35%;
+  position: absolute;
+  right: -120px;
+  top:-70px;
+}
+
+.grouporderContainer .groupOrderImg img, .partnerImg img{
+  width:155px;
+  height:465px;
+}
+
+.grouporder .groupFiled .groupOrderInput, .partnerInput{
+  width:65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.grouporder .groupFiled .groupOrderInput li span, .partnerInput li span{
+  position: relative;
+}
+
+.grouporder .groupFiled .groupOrderInput .groupOrderInputli, .partnerInputli{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.grouporder .groupFiled .groupOrderInput .groupOrderInputli input, .partnerInputli input{
+  width:700px;
+  background-color: transparent;
+  height:40px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom:10px;
+  transition: all .5s;
+}
+
+.grouporder .groupFiled .groupOrderInput .groupOrderInputli input:focus, .partnerInputli input:focus{
+  border-bottom: 1px solid #535353;
+  padding-left: 20px;
+  outline: 0;
+}
+
+.grouporder .groupFiled .groupOrderInput .groupOrderInputTxtarea, .partnerInputTxtarea {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.grouporder .groupFiled .groupOrderInput .groupOrderInputTxtarea textarea, .partnerInputTxtarea  textarea{
+  width:700px;
+  height:150px;
+  resize: none;
+  border: 1px solid #d2d2d2;
+  background-color: transparent;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding: 5px;
+  transition: all 1s;
+}
+
+.grouporder .groupFiled .groupOrderInput .groupOrderInputTxtarea textarea:focus, .partnerInputTxtarea  textarea:focus{
+  padding-left: 20px;
+  outline: 0;
+}
+
+.grouporder .groupFiled .groupOrderInput li span::before, .partnerInput li span::before{
+  content: "";
+  display: block;
+  width:5px;
+  height:5px;
+  background-color: #F62F2F;
+  border-radius: 50%;
+  position: absolute;
+  right: -13px;
+  top:0px;
+}
+
+.personalContainer {
+  width:100%;
+  margin-top:100px;
+  text-align: left;
+}
+
+.personalContainer .personalTxtBox{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  margin-bottom:30px;
+}
+
+.personalContainer .personalTxtBox>span{
+  font-size: 20px;
+  width:65%;
+}
+
+.personalContainer .personalTxtBox .personalTxtCheck{
+  display: flex;
+  width:35%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personalContainer .personalTxtBox .personalTxtCheck{
+  color: #535353;
+  border-radius: 5px;
+}
+
+.personalContainer .personalTxtBox .personalTxtCheck> input {
+  width:18px;
+  height:18px;
+}
+
+.personalInfomation{
+  width:100%;
+  background-color: #f1f1f1;
+  overflow-Y: scroll;
+  box-sizing: border-box;
+  padding: 10px;  
+  height:200px;
+}
+
+.personalInfomation .personalInfoTxt{
+  height:200px;
+  line-height: 50px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.errorP{
+  display: block;
+  height:30px;
+  text-align: right;
+}
+
+.personalInfomation .personalInfoTxt li > * {
+  color: #535353;
+}
+
+.personalInfomation::-webkit-scrollbar {
+  width:3px;
+}
+.personalInfomation::-webkit-scrollbar-thumb {
+  background-color:#2b2b2b;
+  border-radius: 10px;
+}
+.personalInfomation::-webkit-scrollbar-track {
+  background-color:#d2d2d2;
+  border-radius: 10px;
+}
+
+.personalSubmitBtn{
+  width:1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.personalSubmitBtn button{
+  width:200px;
+  height:40px;
+  margin: 0 10px;
+  border: 1px solid #d2d2d2;
+  cursor: pointer;
+}
+
+.personalSubmitBtn .psPrevBtn {
+  background-color: #fff;
+}
+.personalSubmitBtn .psNextBtn {
+  background-color: #2b2b2b;
+  color: #fdfdfa;
+}
+
+.endModalContainer{
+  width:600px;
+  height:100px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.endModal{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.endModal h3, .endModal p, .endModal button{
+  color: #2b2b2b;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.endModal h3 {
+  font-size: 18px;
+}
+
+.endModal p{
+  font-size: 14px;
+  color: #2b2b2b;
+}
+
+.endModal button{
+  width:50px;
+  border: 0;
+  margin-top: 3px;
+  background-color: #2b2b2b;
+  color:#fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.store{
+  width:1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.swiper{
+  overflow: visible;
+}
+
+.store h2{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.store .storeSwiper {
+  display: flex;
+  justify-content: space-around; /* 가로 가운데 정렬 */
+  align-items: center;    /* 세로 가운데 정렬 */
+}
+
+.store .storeSwiper .Swiper {
+  width: 100%; /* 원하는 너비 설정 */
+  margin: 0 auto; /* 가운데 정렬 */
+  height:350px;
+}
+
+
+.storeSlideBox{
+  width:278px;
+  height:306px;
+  box-shadow: 0px 0px 15px rgb(0 , 0, 0, .1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  transition: all .5s;
+}
+
+.storeSlideBox:hover{
+  box-shadow: 0px 0px 15px rgb(0 , 0, 0, .3);
+  transition: all .5s;
+}
+
+.storeSwiper .storeSwiperContainer .storeSlideBox >img{
+  width:278px;
+  height:153px;
+}
+
+.storeSwiper .storeSwiperContainer .storeSlideBox .storeSlideTxtBox{
+  width:100%;
+  height:50%;
+  padding:20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.storeSwiper .storeSwiperContainer .storeSlideBox .storeSlideTxtBox h3{
+  font-size: 17px;
+}
+
+.storeSwiper .storeSwiperContainer .storeSlideBox .storeSlideTxtBox span{
+  font-size: 13px;
+  color: #535353;
+}
+
+.storeSwiper .storeSwiperContainer .storeSlideBox .storeSlideTxtBox .timerBox{
+  display: flex;
+  align-items: center;
+}
+
+.storeSwiper .storeSwiperContainer .storeSlideBox .storeSlideTxtBox p{
+  font-size: 12px;
+  margin-left:5px;
+  color: #535353;
+}
+
+.swiper-button-prev, .swiper-button-next{
+  width:30px;
+  height:30px;
+  background-color:#f1f1f1;
+  border-radius: 50%;
+  position: absolute;
+  top:-38px;
+}
+
+.swiper-button-prev{
+  left:220px;
+}
+
+.swiper-button-next{
+  left: 270px;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after{
+  color: #535353;
+  font-size:18px;
+}
+
+.storeDetails{
+  display: none;
+  width:1000px;
+  height:600px;
+  background-color: #fafaf5;
+  box-shadow: 0px 0px 15px rgb(0 , 0, 0, .1);
+  border-radius: 5px;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 999;
+  top:20%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.storeDetails.active{
+  display: block;
+}
+
+
+.storeDetails .storeDetailsContainer{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.storeDetails .storeDetailsContainer .closeBtn {
+  background-color: transparent;
+  border: 0;
+  width: 50px;
+  height:30px;
+  color: #E6E6E6;
+  position: absolute;
+  top:15px;
+  left: 15px;
+  cursor: pointer;
+  transition: all .5s;
+  z-index: 999;
+}
+
+.storeDetails .storeDetailsContainer .closeBtn:hover{
+  color: #2b2b2b;
+  transition: all .5s;
+  z-index: 999;
+}
+
+.selectedStoreDtContainer{
+  width:95%;
+  height:600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selectedStoreDtTxtBox{
+  width:500px;
+  height:60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.selectedStoreDtTxtBox h3{
+  font-size: 26px;
+}
+
+.selectedStoreDtTxtBox>p{
+  font-size: 14px;
+  color: #535353;
+}
+
+.storeDtTimer{
+  display: flex;
+  align-items: center;
+}
+
+.storeDtTimer > p{
+  color: #535353;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.storeSearchContainer{
+  width:1280px;
+  height:100%;
+  margin: 0 auto;
+}
+
+.storeSearchContainer .storeSearchTop{
+  height:100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.storeSearchContainer .storeSearchTop > h2{
+  margin: 0;
+  margin-right:25px;
+}
+
+.storeSearchContainer .storeSearchTop > input{
+  width:300px;
+  height:40px;
+  padding-left: 10px;
+  border: 0;
+  font-size: 18px;
+  background-color: transparent;
+  border-bottom: 1px solid #d2d2d2;
+  transition: all .5s;
+}
+
+.storeSearchContainer .storeSearchTop > input:focus{
+  border: 0;
+  border-bottom: 1px solid #535353;
+  outline: 0;
+  padding-left: 20px;
+  transition: all .5s;
+}
+
+.storeSearchContainer .storeSearchTop > button{
+  border: 0;
+  height:40px;
+  width:40px;
+  background-color: transparent;
+  position: absolute;
+  left:440px;
+}

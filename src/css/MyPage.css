@@ -1,0 +1,252 @@
+.mypage{
+  width:1280px;
+  margin: 64px auto;
+}
+.mypage .mypageTop{width:100%;}
+.mypage .mypageTop .mypageTitle{
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  font-size: 40px;
+  margin-bottom: 38px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.mypage .mypageTop .mypageTab{width:100%;}
+.mypage .mypageTop .mypageTab .mypageList{
+  display: flex;
+  align-items: center;
+}
+.mypage .mypageTop .mypageTab .mypageList li{
+  margin-right: 37px;
+}
+.mypage .mypageTop .mypageTab .mypageList li button{
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #535353;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mypage .mypageTop .mypageTab .mypageList li button.active{
+  color:#2b2b2b;
+  font-weight: bold;
+}
+
+.mypageMain{width:100%; margin: 0 auto; margin-top:64px;}
+.mypageMain .mypageHome{width:100%;}
+.mypageMain .mypageHome .mypageHomeTop{
+  margin: 0 auto;
+  width:1115px;
+  height:306px;
+  background-color: #FAFAF5;
+  box-shadow:0px 0px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mypageMain .mypageHome .mypageHomeTop > span{
+  font-size: 26px;
+}
+
+.mypageInfo {
+  width:1049px;
+  height:179px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+}
+.mypageInfo .mypageInfolist {
+  width:100%;
+  height:100%;
+  display: flex;
+}
+.mypageInfo .mypageInfolist li {
+  width:25%;
+  height:100%;
+  position: relative;
+}
+
+.mypageInfo .mypageInfolist li:not(:first-child)::before{
+  content: "";
+  display: block;
+  width:1px;
+  height:80%;
+  background-color: #D9D9D9;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+.mypageInfo .mypageInfolist li .level{
+  padding: 38px 0;
+  cursor: pointer;
+}
+
+.mypageInfo .mypageInfolist li .level img{
+  width:60px;
+  height:60px;
+}
+.mypageInfo .mypageInfolist li .level span{
+  font-size: 20px;
+}
+
+.mypageInfo .mypageInfolist li .calculationPeriod {
+  padding: 40px 0;
+}
+
+.mypageInfo .mypageInfolist li .calculationPeriod p {
+  margin-bottom: 15px;
+}
+
+.mypageInfo .mypageInfolist li div{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 45px 0;
+}
+
+.mypageInfo .mypageInfolist li div p {
+  font-size: 20px ;
+  color: #535353;
+}
+
+.mypageSpan{
+  font-size: 20px;
+}
+
+.mypageIconBox {
+  width:100%;
+  height:100%;
+  padding: 0;
+  display: flex;
+  width:100%;
+  height:100%;
+}
+
+.mypageIconBox img{
+  height:60px;
+}
+
+.calculationPeriod .mypageSpan, .apply .mypageSpan, .amount .mypageSpan{
+  font-size: 18px;
+}
+
+.mypageNewOrderProduct {
+  width:100%;
+  margin-top: 64px;
+}
+.mypageNewOrderProduct span {
+  font-size:24px;
+} 
+.mypageNewOrderProduct .mypageNewOrderProductContainer {
+  margin: 0 auto;
+  margin-top: 57px;
+  width:1115px;
+  height:306px;
+  background-color: #FAFAF5;
+  box-shadow:0px 0px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mypageNewOrderProduct .mypageNewOrderProductContainer p {
+  font-size: 18px;
+}
+.mypageNewOrderProduct .mypageNewOrderProductContainer a {
+  display: block;
+  width:200px;
+  height:35px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 29px;
+  border-radius: 5px;
+  box-shadow:0px 0px 15px rgba(0, 0, 0, 0.05);
+}
+.mypageNewOrderProduct .mypageNewOrderProductContainer a button {
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.mypageEvent{
+  width:100%;
+  margin-top: 64px;
+}
+.mypageEvent > span{
+  font-size: 24px;
+}
+.mypageEvent .mypageEventContainer{
+  margin-top: 57px;
+  width:100%;
+  height:278px;
+  display: flex;
+  justify-content: space-between;
+}
+.mypageEvent .mypageEventContainer li{
+  width:400px;
+  height:278px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow:0px 0px 15px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+.mypageEvent .mypageEventContainer li img{
+  width:100%;
+}
+.mypageEvent .mypageEventContainer li a .mypageEventTextBox{
+  padding: 5px;
+  padding-left:15px;
+}
+
+.mypageEvent .mypageEventContainer li a .mypageEventTextBox span {
+  font-size: 13px;
+  color: #535353;
+}
+
+.ordermanagement{
+  width:100%;
+}
+
+.orderTab{
+  width:1115px;
+  height:50px;
+  margin: 0 auto;
+  background-color: #FAFAF5;
+  display: flex;
+  border-radius: 5px;
+  box-shadow:0px 0px 15px rgba(0, 0, 0, 0.05);
+}
+
+.orderTab li {
+  width:25%;
+  height:100%;
+}
+
+.orderTab li button {
+  width:100%;
+  height:100%;
+  border: 0;
+  background-color: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.orderTab li button.active {
+  background-color: #2b2b2b;
+  color:#fff;
+}

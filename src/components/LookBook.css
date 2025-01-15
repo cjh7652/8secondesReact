@@ -1,0 +1,53 @@
+.lookBook{
+    width:1280px;
+    margin: 150px auto;
+}
+
+.lookBook .lookBookContainer {
+    width: 100%;
+    height:550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lookBook .lookBookContainer .lookBookSubImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lookBookTabAndImg {
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lookBookTxt {
+    text-align: center;
+}
+
+.lookBook h2{
+    font-size: 30px;
+}
+
+.lookBook .lookBookBtnBox button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    margin:31px 31px;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.lookBookTxt p {
+    font-size: 14px;
+    color: #535353;
+    margin-bottom: 20px;
+}
+
+.lookBook .lookBookBtnBox button.active{
+    font-size: 22px;
+    color:#2b2b2b;
+}

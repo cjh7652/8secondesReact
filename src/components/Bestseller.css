@@ -1,0 +1,29 @@
+.bestsellerWrap{
+  width:1280px;
+  margin: 100px  auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bestseller .productText{
+  justify-content: start;
+  width:600px;
+}
+.bestseller .productText p{
+  margin-right: 0;
+  margin-left: 40px;
+}
+
+.bestseller .productText .icon {
+  display: none;
+}
+
+.bestseller  .productBtn button {
+  margin: 0;
+  margin-right: 114px;
+}
+
+.bestseller .icon {
+  font-size: 30px;
+}

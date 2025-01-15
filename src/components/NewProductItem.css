@@ -1,0 +1,8 @@
+.imageContainer {
+    width:100%;
+    display: flex;
+}
+
+.imageContainer img{
+    margin: 0 34px;
+}

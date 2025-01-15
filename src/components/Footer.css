@@ -1,0 +1,88 @@
+ol, ul, li{
+    list-style: none;
+}
+
+.footer{
+    width:100%;
+}
+
+.footerWrap {
+    width:100%;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.footer .footerTopWrap{
+    width:1280px;
+    margin: 0 auto;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footerTopWrap .footerTop1{
+    display: flex;
+}
+
+.footerTop1 li {
+    margin-right: 40px;
+    font-size: 15px;
+    color: #535353;
+}
+
+.footerTop1 li a {
+    color: #535353;
+}
+.footerTop1 li:last-child{
+    margin-right: 0;
+}
+
+.footerTop1 .footerColorPonint{
+    color:#2b2b2b;
+}
+
+.footer .footerTopWrap .footerTop2{
+    display: flex;
+}
+
+.footerTop2 li {
+    margin-left: 40px;
+    font-size: 15px;
+    color: #535353;
+}
+
+.footerTop2 li a {
+    color: #535353;
+}
+
+.footerTop2 li:first-child{
+    margin-left: 0;
+}
+
+.footerBtWrap{
+    width:1280px;
+    margin: 33px auto;
+}
+
+.footerBtWrap p{
+    color: #2B2B2B;
+    font-size: 14px;
+}
+
+.footerBt2{
+    margin-top: 23px;
+}
+
+.footerBt2 > li{
+    margin-bottom: 23px;
+}
+
+.footerBtWrap .footerBtInfo{
+    display: flex;
+}
+
+.footerBtWrap .footerBt2 li, .footerBt2 .footerBtInfo li{
+    font-size: 14px;
+    color:#535353;
+}

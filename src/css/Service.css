@@ -1,0 +1,47 @@
+.service {
+  width: 1280px;
+  margin: 60px auto;
+  box-sizing: border-box;
+}
+
+.service h2 {
+  font-size: 40px;
+  margin-bottom: 38px;
+}
+
+.serviceFirst {
+  margin-top: 60px;
+}
+
+.serviceFirst h3,
+.serviceTwo h3 {
+  margin-bottom: 38px;
+}
+
+.serviceTwo h3 {
+  margin-top: 38px;
+}
+
+.service .serviceTxtBox {
+  width: 100%;
+  height: 500px;
+  overflow-y: scroll;
+  background-color: #f1f1f1;
+  padding: 25px;
+  white-space: pre-line;
+  font-size: 14px;
+  line-height: 25px;
+  box-sizing: border-box;
+}
+
+.serviceTxtBox::-webkit-scrollbar {
+  width: 3px;
+}
+.serviceTxtBox::-webkit-scrollbar-thumb {
+  background-color: #2b2b2b;
+  border-radius: 10px;
+}
+.serviceTxtBox::-webkit-scrollbar-track {
+  background-color: #d2d2d2;
+  border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+.productBtn button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: #b3b3b3 ;
+    margin: 67px 57px;
+    cursor: pointer;
+}
+
+.productBtn button.active{
+    font-size: 22px;
+    color:#2b2b2b;
+}

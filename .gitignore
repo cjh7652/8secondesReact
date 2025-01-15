@@ -1,0 +1,27 @@
+# Compiled source files
+*.class
+
+# Compiled Python files
+*.pyc
+
+# Virtual environment
+.env
+
+# Node.js
+node_modules/
+
+# OS files
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Dependency directories
+vendor/
+
+# Compiled C/C++ files
+*.o
+*.out
